@@ -92,6 +92,15 @@ src/
 npm test
 ```
 
+## 👨‍💻 Author
+
+**Shameer Ali**  
+Frontend / MERN Developer  
+
+- 🌐 GitHub: https://github.com/shameer125  
+- 💼 LinkedIn: https://linkedin.com/in/shameer-ali-8420a6322
+- 📧 Email: alishameer251@gmail.com 
+
 ## 💡 Keyboard Shortcuts
 - `Ctrl + K`: Open Command Palette
 - `Ctrl + D`: Toggle Dark Mode
