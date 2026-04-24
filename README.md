@@ -2,7 +2,7 @@
 
 A highly sophisticated, full-featured dashboard application built with **React 19**, **TypeScript**, and **Tailwind CSS 4**. This project demonstrates advanced engineering patterns, including role-based authentication, real-time data simulation, complex data visualization, and a multi-tab navigation system.
 
-##🖼️ Preview
+## 🖼️ Preview
 <p align="center">
   <img src="./public/screenshots/performance-1.png" width="80%" />
 </p>
@@ -92,6 +92,16 @@ src/
 npm test
 ```
 
+## 🔑 Demo Credentials
+
+> ⚠️ This project uses a mock authentication system (no real backend).
+
+| Role   | Email                  | Password     |
+|--------|------------------------|--------------|
+| Admin  | admin@dashboard.com    | password123  |
+| Viewer | user@dashboard.com     | password123  |
+
+
 ## 👨‍💻 Author
 
 **Shameer Ali**  
@@ -99,7 +109,11 @@ Frontend / MERN Developer
 
 - 🌐 GitHub: https://github.com/shameer125  
 - 💼 LinkedIn: https://linkedin.com/in/shameer-ali-8420a6322
-- 📧 Email: alishameer251@gmail.com 
+- 📧 Email: alishameer251@gmail.com
+
+- ## 🌐 Live Demo
+
+👉 **[Launch DashHub](https://business-dashboard-beta.vercel.app/)**
 
 ## 💡 Keyboard Shortcuts
 - `Ctrl + K`: Open Command Palette
