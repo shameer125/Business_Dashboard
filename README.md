@@ -5,6 +5,10 @@ A highly sophisticated, full-featured dashboard application built with **React 1
 ##🖼️ Preview
 ![Business Dashboard](./public/screenshots/performance-1.png)
 
+![Business Dashboard](./public/screenshots/revenue-2.png)
+
+![Business Dashboard](./public/screenshots/dashboard_darkmode-4.png)
+
 ## 🚀 Key Features
 
 - **Authentication & Security**:
