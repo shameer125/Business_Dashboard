@@ -5,12 +5,14 @@ const api = axios.create({
   timeout: 10000,
 });
 
+
 // Mocking the backend delay and responses
 api.interceptors.request.use(async (config) => {
   // Simulate network delay
   await new Promise(resolve => setTimeout(resolve, Math.random() * 500 + 300));
   return config;
 });
+
 
 api.interceptors.response.use(
   (response) => response,
