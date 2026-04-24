@@ -3,7 +3,7 @@
 A highly sophisticated, full-featured dashboard application built with **React 19**, **TypeScript**, and **Tailwind CSS 4**. This project demonstrates advanced engineering patterns, including role-based authentication, real-time data simulation, complex data visualization, and a multi-tab navigation system.
 
 ##🖼️ Preview
-![Business_Dashboard](public/screenshots/performance-1.png)
+![Business Dashboard](./public/screenshots/performance-1.png)
 
 ## 🚀 Key Features
 
