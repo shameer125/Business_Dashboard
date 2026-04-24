@@ -66,7 +66,7 @@ src/
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd dashhub
+   cd Business_Dashboard
    ```
 2. Install dependencies:
    ```bash
