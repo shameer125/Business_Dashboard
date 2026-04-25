@@ -99,9 +99,11 @@ export function DataTable<TData, TValue>({
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
-                  className="absolute right-0 mt-2 w-48 bg-card border border-border rounded-xl shadow-xl z-20 p-2"
+                  className="absolute right-0 mt-2 w-48 bg-card border border-border 
+                  rounded-xl shadow-xl z-20 p-2"
                 >
-                  <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider mb-2 px-2">Toggle Columns</p>
+                  <p className="text-[10px] font-bold text-muted-foreground uppercase 
+                  tracking-wider mb-2 px-2">Toggle Columns</p>
                   <div className="space-y-1">
                     {table
                       .getAllColumns()
