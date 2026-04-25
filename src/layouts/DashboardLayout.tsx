@@ -105,7 +105,8 @@ const TabBar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center gap-1 px-4 py-2 border-b border-border bg-background/50 overflow-x-auto tabs-scrollbar scrollbar-hide">
+    <div className="flex items-center gap-1 px-4 py-2 border-b border-border bg-background/50 
+    overflow-x-auto tabs-scrollbar scrollbar-hide">
       {tabs.map((tab) => (
         <div
           key={tab.id}
