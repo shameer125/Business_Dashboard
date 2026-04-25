@@ -66,13 +66,15 @@ export function DataTable<TData, TValue>({
 
   return (
     <div className="w-full">
-      <div className="flex items-center justify-between py-4 px-6 bg-card border-b border-border">
+      <div className="flex items-center justify-between py-4 px-6 bg-card 
+      border-b border-border">
         <div className="flex items-center gap-4">
           <input
             placeholder="Filter all columns..."
             value={(table.getState().globalFilter as string) ?? ""}
             onChange={(event) => table.setGlobalFilter(event.target.value)}
-            className="px-4 py-2 bg-muted/50 border border-border rounded-xl text-sm outline-none focus:ring-2 focus:ring-primary/20 transition-all w-64"
+            className="px-4 py-2 bg-muted/50 border border-border rounded-xl text-sm 
+            outline-none focus:ring-2 focus:ring-primary/20 transition-all w-64"
           />
           <div className="text-sm text-muted-foreground">
             {table.getFilteredSelectedRowModel().rows.length} of{" "}
