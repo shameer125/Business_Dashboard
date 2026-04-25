@@ -21,14 +21,16 @@ const NotFoundPage: React.FC = () => {
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             to="/dashboard"
-            className="flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-xl font-medium hover:opacity-90 transition-all"
+            className="flex items-center gap-2 px-6 py-3 bg-primary 
+            text-primary-foreground rounded-xl font-medium hover:opacity-90 transition-all"
           >
             <Home size={18} />
             Back to Home
           </Link>
           <button
             onClick={() => window.history.back()}
-            className="flex items-center gap-2 px-6 py-3 bg-muted text-foreground rounded-xl font-medium hover:bg-border transition-all"
+            className="flex items-center gap-2 px-6 py-3 bg-muted text-foreground 
+            rounded-xl font-medium hover:bg-border transition-all"
           >
             <ArrowLeft size={18} />
             Go Back
