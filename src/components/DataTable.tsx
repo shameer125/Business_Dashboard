@@ -85,7 +85,8 @@ export function DataTable<TData, TValue>({
         <div className="relative">
           <button 
             onClick={() => setShowColumnToggle(!showColumnToggle)}
-            className="p-2 hover:bg-muted rounded-xl border border-border text-muted-foreground flex items-center gap-2 text-sm"
+            className="p-2 hover:bg-muted rounded-xl border border-border text-muted-foreground
+            flex items-center gap-2 text-sm"
           >
             <Settings2 size={16} />
             Columns
