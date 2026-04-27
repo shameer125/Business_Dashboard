@@ -163,9 +163,11 @@ const CommandPalette = () => {
            border border-border uppercase">Esc</kbd>
         </div>
         <div className="p-4 max-h-[60vh] overflow-y-auto">
-          <div className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider mb-2 px-2">Navigation</div>
+          <div className="text-[10px] font-bold text-muted-foreground uppercase 
+          tracking-wider mb-2 px-2">Navigation</div>
           <div className="space-y-1">
-            <div className="p-3 hover:bg-muted rounded-xl flex items-center justify-between cursor-pointer group">
+            <div className="p-3 hover:bg-muted rounded-xl flex items-center justify-between
+             cursor-pointer group">
               <div className="flex items-center gap-3">
                 <LayoutDashboard size={18} className="text-muted-foreground" />
                 <span className="text-sm font-medium">Go to Dashboard</span>
