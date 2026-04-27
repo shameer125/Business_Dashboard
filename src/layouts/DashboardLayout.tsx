@@ -143,11 +143,13 @@ const CommandPalette = () => {
   if (!commandPaletteOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-[15vh] px-4 bg-black/40 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-start justify-center 
+    pt-[15vh] px-4 bg-black/40 backdrop-blur-sm">
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="w-full max-w-2xl bg-card rounded-2xl shadow-2xl border border-border overflow-hidden"
+        className="w-full max-w-2xl bg-card rounded-2xl shadow-2xl border
+         border-border overflow-hidden"
       >
         <div className="flex items-center p-4 border-b border-border">
           <Search size={20} className="text-muted-foreground" />
