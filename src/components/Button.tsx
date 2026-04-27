@@ -10,6 +10,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   rightIcon?: React.ReactNode;
 }
 
+
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = 'primary', size = 'md', isLoading, leftIcon, rightIcon, children, disabled, ...props }, ref) => {
     const variants = {
@@ -19,6 +20,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       ghost: 'hover:bg-muted text-muted-foreground hover:text-foreground',
       danger: 'bg-destructive text-destructive-foreground hover:opacity-90 shadow-lg shadow-destructive/20',
     };
+
 
     const sizes = {
       sm: 'h-8 px-3 text-xs',
@@ -46,6 +48,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       </button>
     );
   }
+  
 );
 
 Button.displayName = 'Button';
