@@ -17,6 +17,7 @@ interface UIState {
   toggleCVMode: () => void
 }
 
+
 export const useUIStore = create<UIState>()(
   persist(
     (set) => ({
@@ -42,6 +43,7 @@ export const useUIStore = create<UIState>()(
       toggleCVMode: () => set((state) => ({ cvMode: !state.cvMode })),
     }),
     {
+      
       name: 'ui-storage',
       partialize: (state) => ({ theme: state.theme, sidebarOpen: state.sidebarOpen }),
     }
