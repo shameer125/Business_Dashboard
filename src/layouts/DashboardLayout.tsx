@@ -155,10 +155,12 @@ const CommandPalette = () => {
           <Search size={20} className="text-muted-foreground" />
           <input 
             autoFocus
-            className="flex-1 bg-transparent border-none outline-none px-3 text-foreground placeholder:text-muted-foreground" 
+            className="flex-1 bg-transparent border-none outline-none px-3 text-foreground
+             placeholder:text-muted-foreground" 
             placeholder="Search commands or pages... (Type 'help' for shortcuts)"
           />
-          <kbd className="px-2 py-1 rounded bg-muted text-[10px] text-muted-foreground border border-border uppercase">Esc</kbd>
+          <kbd className="px-2 py-1 rounded bg-muted text-[10px] text-muted-foreground
+           border border-border uppercase">Esc</kbd>
         </div>
         <div className="p-4 max-h-[60vh] overflow-y-auto">
           <div className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider mb-2 px-2">Navigation</div>
