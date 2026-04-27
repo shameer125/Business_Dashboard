@@ -12,5 +12,4 @@ function Skeleton({
   )
 }
 
-
 export { Skeleton }
