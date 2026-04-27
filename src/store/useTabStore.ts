@@ -24,10 +24,12 @@ export const useTabStore = create<TabState>((set) => ({
     if (state.tabs.find(t => t.id === tab.id)) {
       return { activeTabId: tab.id }
     }
+    
     return { 
       tabs: [...state.tabs, tab],
       activeTabId: tab.id
     }
+
   }),
   removeTab: (id) => set((state) => {
     const tabIndex = state.tabs.findIndex(t => t.id === id)
