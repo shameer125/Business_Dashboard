@@ -24,7 +24,6 @@ export const useTabStore = create<TabState>((set) => ({
     if (state.tabs.find(t => t.id === tab.id)) {
       return { activeTabId: tab.id }
     }
-    
     return { 
       tabs: [...state.tabs, tab],
       activeTabId: tab.id
@@ -44,3 +43,4 @@ export const useTabStore = create<TabState>((set) => ({
   }),
   setActiveTab: (id) => set({ activeTabId: id }),
 }))
+
