@@ -5,6 +5,7 @@ export interface LiveMetric {
   change: number;
 }
 
+
 export function useWebSocketMock() {
   const [metrics, setMetrics] = useState<Record<string, LiveMetric>>({
     revenue: { value: 45231.89, change: 20.1 },
@@ -13,6 +14,7 @@ export function useWebSocketMock() {
     sales: { value: 12234, change: 19 },
   });
 
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setMetrics((prev) => {
