@@ -107,7 +107,7 @@ npm test
 **Shameer Ali**  
 Frontend / MERN Developer  
 
-- 🌐 GitHub: https://github.com/shameer125  
+- 🌐 GitHub: https://github.com/shameercodes  
 - 💼 LinkedIn: https://linkedin.com/in/shameer-ali-8420a6322
 - 📧 Email: alishameer251@gmail.com
 
